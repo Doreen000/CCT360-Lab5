@@ -1,9 +1,33 @@
-.video-container {
-    text-align: center;
-    width: 300px;
-}
-
-video {
-    text-align: center;
-    width: 400px;
-}
+body {
+      background-color: pink;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 300px;
+      height: 550px;
+      object-fit: cover;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: 4px solid #ffcccb;
+    }
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 182, 193, 0.8);
+    }
+    .controls {
+      margin-top: 20px;
+    }
+    button, input {
+      margin: 5px;
+      padding: 10px 15px;
+      font-size: 16px;
+    }

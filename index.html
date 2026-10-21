@@ -7,10 +7,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="video-container">
-            <video controls>
-                <source src="Larry spin.mp4" type="video/mp4">
-            </video>
+        <div class="card">
+            <p>Click Larry!</p>
+            <img id="larryImg" src="larry.png" alt="Clickable Larry">
+            <audio id="bgAudio" src="cat pur.mp3" loop></audio>
+            <audio id="meowAudio" src="meow.mp3"></audio>
+
+            <div class="controls">
+                <button id="playBtn">▶</button>
+                <br>
+                <label for="volumeSlider">Volume</label>
+                <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+            </div>
         </div>
     </body>
     <script src="script.js"></script>
